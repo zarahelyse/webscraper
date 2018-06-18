@@ -1,0 +1,11 @@
+<div id="wrapper">
+  <h1>
+    <img src="assets/img/newYorker.jpg" alt="New Yorker man" height="70" width="70"> The New Yorker Web Scraper</h1>
+  <h2>
+    <i>This week's headlines</i>
+  </h2>
+  <div id="articles">
+    {{#each articles}} {{> article-card }} {{/each}}
+  </div>
+  <div id="notes"></div>
+</div>

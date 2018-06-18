@@ -1,0 +1,21 @@
+<div class="card articleCard" data-id="{{_id}}">
+    <div class="row">
+        <div class="col-md-4">
+            <img class="card-img-bottom" src="{{img}}" alt="Card image cap">
+        </div>
+        <div class="col-md-8">
+            <div class="card-block">
+                <div class="card-body">
+                    <a href="{{link}}">
+                        <h5 class="card-title">{{title}}</h5>
+                    </a>
+                    <p class="card-text">{{desc}}</p>
+                    <p>
+                        <button data-id={{id}} data-toggle='modal' data-target='#commentsModal' id='getComments'>Make a Comment</button>
+                        <button data-id={{id}} data-toggle='modal' data-target='#viewCommentsModal' id='viewComments'>View Comments</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
